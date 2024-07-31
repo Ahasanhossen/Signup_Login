@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+a{
+padding: 20px;
+margin-right: 10px;
+background-color: black;
+color: white;
+text-decoration: none;
+border-radius: 25px;
+}

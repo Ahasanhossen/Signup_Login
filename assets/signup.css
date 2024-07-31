@@ -1,0 +1,8 @@
+form{
+height: 100vh;
+width: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
