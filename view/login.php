@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../assets/signup.css">
 </head>
 <body>
+    <?php
+    require("header.php");
+    ?>
     <form action="login.php" method="post">
         <label for="email">Email</label>
         <input type="email" id="email" name="email">

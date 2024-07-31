@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../assets/signup.css">
 </head>
 <body>
+<?php
+    require("header.php");
+    ?>
     <form action="signup.php" method="post">
     <label for="firstName">FirstName</label>    
     <input type="text" name="firstName1">

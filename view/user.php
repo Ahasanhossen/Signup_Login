@@ -15,9 +15,9 @@ if (!isset($_SESSION['user_id'])) {
 </head>
 
 <body>
-    <form action="user.php" method="post" class="header">
-        <div class="header"><button name="logout">Log Out</button></div>
-    </form>
+<?php
+    require("header.php");
+    ?>
     <?php
     require('../connection.php');
     $email = $_SESSION['user_id'];
@@ -33,6 +33,9 @@ if (!isset($_SESSION['user_id'])) {
 
 
     ?>
+    <form action="user.php" method="post" class="">
+        <div class=""><button name="logout">Log Out</button></div>
+    </form>
 
 </body>
 
